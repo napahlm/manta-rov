@@ -22,3 +22,11 @@ simulator.launch
 manta.launch
 
 &nbsp;&nbsp;&nbsp;&nbsp; *Launches all the necessary packages for normal physical operation of Manta.*
+
+## Packages
+The function of the packages are designed as a traditional closed loop feedback system.
+
+The measured states are the depth and orientation of the ROV determined by the setpoint given by the a joystick.
+
+*Add the feedback loop image*.
+
