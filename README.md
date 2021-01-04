@@ -17,8 +17,8 @@ Launch files are called with the `roslaunch` command and contains a specific set
 
 simulator.launch
 
-&nbsp;&nbsp;&nbsp;&nbsp; Launches the barebone control structure necessary for simulator control of Manta.
+&nbsp;&nbsp;&nbsp;&nbsp; *Launches the barebone control structure necessary for simulator control of Manta.*
   
 manta.launch
 
-&nbsp;&nbsp;&nbsp;&nbsp; Launches all the necessary packages for normal physical operation of Manta.
+&nbsp;&nbsp;&nbsp;&nbsp; *Launches all the necessary packages for normal physical operation of Manta.*
