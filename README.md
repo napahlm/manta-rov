@@ -9,9 +9,11 @@ This repo contains the necessary ROS packages for controlling the underwater dro
 Launch files are called with the `roslaunch` command and contains a specific set of packages meant to do a specific task. Usually differentiated between physical operation and simulator operation.
 
 
-Usage:
+*Usage:*
+
 `roslaunch package_name launch_file.launch`
 
+*Files:*
 
 simulator.launch
 
