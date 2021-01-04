@@ -39,7 +39,7 @@ The measured states are the depth and orientation of the ROV determined by the s
 
 **controller:** Controller.
 
-**allocator:** Allocates the forces. Needed for simulator.
+**allocator:** Allocates the forces. Also needed for the simulators thruster_manager.
 
 **thruster_interface:** Determines each thruster's force needed.
 
