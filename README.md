@@ -2,7 +2,7 @@
 "Manta" is the name of the ROV given by Vortex NTNU at the time of construction in 2017.
 It has competed in ROV and AUV competitions internationally, and is now mainly used and maintained as a ROV.
 
-# The ROV Control System
+# Description
 This repo contains the necessary ROS packages for controlling the underwater drone physically.
 
 ## Launch files
@@ -30,3 +30,29 @@ The measured states are the depth and orientation of the ROV determined by the s
 
 *Add the feedback loop image*.
 
+# Setup
+
+## Pre-requisite
+
+Linux Ubuntu 18.04 with ROS Melodic.
+
+&nbsp;&nbsp;&nbsp;&nbsp; Install ROS Melodic here:
+
+The Manta ROV Simulator.
+
+&nbsp;&nbsp;&nbsp;&nbsp; Follow the instructions here:
+
+
+## Dependencies
+
+The catkin tools and some python dependancies are needed.
+
+## Downloading
+
+git clone
+
+## Building
+
+catkin build
+
+## Test functionality
