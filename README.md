@@ -8,7 +8,7 @@ This repo contains the necessary ROS packages for controlling the underwater dro
 ## Packages
 **joy_node:** Joystick node made from ROS.
 
-**joystick_interface:** Mapping.
+**joystick_interface:** Joystick mapping.
 
 **controller:** Controller.
 
