@@ -55,13 +55,15 @@ The measured states are the depth and orientation of the ROV determined by the s
 
 Linux Ubuntu 18.04 with ROS Melodic.
 
-
-
 &nbsp;&nbsp;&nbsp;&nbsp; Install ROS Melodic here:
 
 The Manta ROV Simulator.
 
 &nbsp;&nbsp;&nbsp;&nbsp; Follow the instructions here:
+
+The custom messages library/package:
+
+&nbsp;&nbsp;&nbsp;&nbsp; vortex_msgs
 
 
 ## Dependencies
