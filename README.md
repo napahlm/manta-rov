@@ -11,7 +11,7 @@ Launch files are called with the `roslaunch` command and contains a specific set
 
 **Usage:**
 
-`roslaunch package_name launch_file.launch`
+`roslaunch   package_name launch  _file.launch`
 
 **Files:**
 
