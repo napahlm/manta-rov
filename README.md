@@ -15,7 +15,7 @@ Usage:
 
 simulator.launch
 
-  Launches the barebone control structure necessary for simulator control of Manta.
+&nbsp;&nbsp;Launches the barebone control structure necessary for simulator control of Manta.
   
 manta.launch
 
