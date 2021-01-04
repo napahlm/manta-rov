@@ -8,10 +8,15 @@ This repo contains the necessary ROS packages for controlling the underwater dro
 ## Launch files
 Launch files are called with the `roslaunch` command and contains a specific set of packages meant to do a specific task. Usually differentiated between physical operation and simulator operation.
 
+
 Usage:
 `roslaunch package_name launch_file.launch`
 
+
 simulator.launch
+
   Launches the barebone control structure necessary for simulator control of Manta.
+  
 manta.launch
+
   Launches all the necessary packages for normal physical operation of Manta.
