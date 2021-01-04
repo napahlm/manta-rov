@@ -5,23 +5,6 @@ It has competed in ROV and AUV competitions internationally, and is now mainly u
 # Description
 This repo contains the necessary ROS packages for controlling the underwater drone physically.
 
-## Packages
-**joy_node:** Joystick node made from ROS.
-
-**joystick_interface:** Joystick mapping.
-
-**controller:** Controller.
-
-**allocator:** Allocates the forces. Needed for simulator.
-
-**thruster_interface:** Determines each thruster's force needed.
-
-**pwm_interface:** Sends PWM to all ESC's.
-
-**sensor_node:** Reads raw sensor data. (Pressure and position)
-
-**sensor_interface:** Processes and sends sensor data to the controller.
-
 ## Launch files
 Launch files are called with the `roslaunch` command and contains a specific set of packages meant to do a specific task. Usually differentiated between physical operation and simulator operation.
 
@@ -41,11 +24,28 @@ manta.launch
 &nbsp;&nbsp;&nbsp;&nbsp; *Launches all the necessary packages for normal physical operation of Manta.*
 
 ## Packages
+
 The function of the packages are designed as a traditional closed loop feedback system.
 
 The measured states are the depth and orientation of the ROV determined by the setpoint given by the a joystick.
 
 *Add the feedback loop image*.
+
+**joy_node:** Joystick node made from ROS.
+
+**joystick_interface:** Joystick mapping.
+
+**controller:** Controller.
+
+**allocator:** Allocates the forces. Needed for simulator.
+
+**thruster_interface:** Determines each thruster's force needed.
+
+**pwm_interface:** Sends PWM to all ESC's.
+
+**sensor_node:** Reads raw sensor data. (Pressure and position)
+
+**sensor_interface:** Processes and sends sensor data to the controller.
 
 # Setup
 
