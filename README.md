@@ -33,7 +33,7 @@ The measured states are the depth and orientation of the ROV determined by the s
 
 ### Packages
 
-**joy_node:** Joystick node made from ROS.
+**joy_node:** Default node in ROS reading joystick input.
 
 **joystick_interface:** Joystick mapping.
 
