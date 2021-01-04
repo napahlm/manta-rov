@@ -51,9 +51,11 @@ The measured states are the depth and orientation of the ROV determined by the s
 
 # Setup
 
-## Pre-requisite
+## Prerequisite
 
 Linux Ubuntu 18.04 with ROS Melodic.
+
+
 
 &nbsp;&nbsp;&nbsp;&nbsp; Install ROS Melodic here:
 
