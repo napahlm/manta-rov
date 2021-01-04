@@ -5,6 +5,23 @@ It has competed in ROV and AUV competitions internationally, and is now mainly u
 # Description
 This repo contains the necessary ROS packages for controlling the underwater drone physically.
 
+## Packages
+joy_node: Joystick node made from ROS.
+
+joystick_interface: Mapping.
+
+controller: Controller.
+
+allocator: Allocates the forces. Needed for simulator.
+
+thruster_interface: Determines each thruster's force needed.
+
+pwm_interface: Sends PWM to all ESC's.
+
+sensor_node: Reads raw sensor data. (Pressure and position)
+
+sensor_interface: Processes and sends sensor data to the controller.
+
 ## Launch files
 Launch files are called with the `roslaunch` command and contains a specific set of packages meant to do a specific task. Usually differentiated between physical operation and simulator operation.
 
