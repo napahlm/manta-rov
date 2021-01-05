@@ -5,6 +5,8 @@ It has competed in ROV and AUV competitions internationally, and is now mainly u
 # Description
 This repo contains the necessary ROS packages for controlling the underwater drone physically.
 
+## Test
+
 ## Launch files
 Launch files are called with the `roslaunch` command and contains a specific set of packages meant to do a specific task. Usually differentiated between physical operation and simulator operation.
 
