@@ -16,6 +16,7 @@ Controller::Controller(ros::NodeHandle nh) : m_nh(nh), m_frequency(10)
   m_command_sub = m_nh.subscribe("propulsion_command", 1, &Controller::commandCallback, this);
   m_state_sub   = m_nh.subscribe("state_estimate", 1, &Controller::stateCallback, this);
   m_wrench_pub  = m_nh.advertise<geometry_msgs::Wrench>("rov_forces", 1);
+  m_wrench_pub  = m_nh.advertise<geometry_msgs::Wrench>("manta/thruster_manager/input", 1);
   m_mode_pub    = m_nh.advertise<std_msgs::String>("controller/mode", 10);
   m_debug_pub   = m_nh.advertise<vortex_msgs::Debug>("debug/controlstates", 10);
 
