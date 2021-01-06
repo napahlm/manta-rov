@@ -53,6 +53,8 @@ class ThrusterInterface(object):
         for i in range(NUM_THRUSTERS):
             pwm_msg.pins.append(THRUSTER_MAPPING[i])
             pwm_msg.positive_width_us.append(neutral_pulse_width)
+            
+        pwm_msg.positive_width_us = np.array(pwm_msg.positive_width_us).astype('uint16')
         self.pub_pwm.publish(pwm_msg)
 
     def callback(self, msg):
@@ -67,7 +69,8 @@ class ThrusterInterface(object):
             microsecs[i] = thrust_to_microsecs(thrust[i] + THRUST_OFFSET[i])
             pwm_msg.pins.append(THRUSTER_MAPPING[i])
             pwm_msg.positive_width_us.append(microsecs[i])
-
+            
+        pwm_msg.positive_width_us = np.array(pwm_msg.positive_width_us).astype('uint16')
         self.pub_pwm.publish(pwm_msg)
 
 
